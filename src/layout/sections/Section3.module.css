@@ -1,0 +1,155 @@
+.section {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 238, 238, 1) 70%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.sectionWrap {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+h2 {
+  padding-top: 28px;
+  text-align: center;
+  font-size: 56px;
+}
+.textCenter {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(85, 85, 85, 1);
+}
+.list {
+  margin-top: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listOne {
+  font-size: 22px;
+}
+.listSubscribe {
+  font-size: 18px;
+  margin-top: 7px;
+  color: rgba(85, 85, 85, 1);
+}
+.liveStreamBlock {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 81px;
+}
+.liveStreamImg {
+  max-width: 100%;
+  z-index: 2;
+}
+.streamPhoneImg {
+  position: absolute;
+  top: -214px;
+  left: 0;
+  z-index: 1;
+}
+.phoneStatImg {
+  position: absolute;
+  bottom: -214px;
+  right: 0;
+  z-index: 3;
+}
+.list2 {
+  margin-top: 39px;
+  font-size: 22px;
+  margin-left: 106px;
+}
+.list3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 39px;
+  margin-left: 72px;
+  padding-bottom: 136px;
+  font-size: 22px;
+}
+.phoneStatImgMedia {
+  display: none;
+}
+.streamPhoneImgMedia {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .list {
+    margin-top: 50px;
+  }
+  .liveStreamImg {
+    margin-top: 20px;
+  }
+  .liveStreamBlock {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  .streamPhoneImg {
+    display: none;
+  }
+  .responsiveImg {
+    display: flex;
+    justify-content: space-around;
+  }
+  .phoneStatImgMedia {
+    display: block;
+    max-width: 100%;
+  }
+  .streamPhoneImgMedia {
+    display: block;
+    max-width: 100%;
+  }
+  .phoneStatImg {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .titleText {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 56px;
+  }
+  .list2 {
+    margin-top: 39px;
+    font-size: 22px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .list3 {
+    text-align: center;
+    display: block;
+    margin-top: 39px;
+    margin-left: 0px;
+    padding-bottom: 80px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 581px) {
+  .phoneStatImgMedia {
+    display: block;
+    width: 200px;
+  }
+  .streamPhoneImgMedia {
+    display: block;
+    width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .phoneStatImgMedia {
+    display: block;
+    width: 150px;
+  }
+  .streamPhoneImgMedia {
+    display: block;
+    width: 150px;
+  }
+  h2 {
+    padding-top: 28px;
+    text-align: center;
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,75 @@
+h3 {
+  margin-top: 156px;
+  font-size: 55px;
+  text-align: center;
+}
+.gridConteiner {
+  margin-top: 89px;
+  display: grid;
+  grid-template-columns: 321px 321px 321px;
+  text-align: center;
+  column-gap: 36px;
+  grid-row-gap: 90px;
+  justify-content: center;
+}
+
+.icon {
+  border: 1px solid black;
+  padding: 17px;
+  background-color: #eeeeee;
+}
+.title {
+  margin-top: 17px;
+  font-size: 22px;
+}
+.text {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #555555;
+}
+.pricingWrap {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff9e8;
+  padding: 29px 0;
+}
+.pricingImg {
+  max-width: 100%;
+}
+@media (max-width: 1200px) {
+  h3 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  .gridConteiner {
+    padding: 0 20px;
+    margin-top: 40px;
+    column-gap: 20px;
+    grid-row-gap: 50px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .pricingWrap {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff9e8;
+    padding: 29px 0;
+  }
+}
+@media (max-width: 1023px) {
+  .gridConteiner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .text {
+    font-size: 14px;
+  }
+}
