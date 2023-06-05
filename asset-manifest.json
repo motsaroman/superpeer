@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/superpeer/static/css/main.e177b62b.css",
+    "main.css": "/superpeer/static/css/main.e9be4ce6.css",
     "main.js": "/superpeer/static/js/main.1a4ee31e.js",
     "static/media/video-calls.png": "/superpeer/static/media/video-calls.b8d17bc84d775a433e11.png",
     "static/media/live-stream.png": "/superpeer/static/media/live-stream.f2cba57c6b46eb77da4b.png",
@@ -13,11 +13,11 @@
     "static/media/instagram.svg": "/superpeer/static/media/instagram.bf2b053c0bf7cc54153a3d94da092b54.svg",
     "static/media/twitter.svg": "/superpeer/static/media/twitter.0b9ae3d6efa313660a84d00174f13b01.svg",
     "index.html": "/superpeer/index.html",
-    "main.e177b62b.css.map": "/superpeer/static/css/main.e177b62b.css.map",
+    "main.e9be4ce6.css.map": "/superpeer/static/css/main.e9be4ce6.css.map",
     "main.1a4ee31e.js.map": "/superpeer/static/js/main.1a4ee31e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e177b62b.css",
+    "static/css/main.e9be4ce6.css",
     "static/js/main.1a4ee31e.js"
   ]
 }
